@@ -1,29 +1,65 @@
 div {
     font-family: "Helvetica";
-    background-color: #272D33;
+    background-color: black;
     color: white;
-    font-size: 32px;
+    font-size: 24px;
     padding: 5px;
 }
 
 nav {
-    background-color: #272d33;
+    background-color: black;
     padding: 5px;
     display: flex;
     justify-content: space-around;
-}
-
-img {
-    width: 60px;
-}
-
-.items:hover {
-    background-color: grey;
-    opacity: 0.5;
+    align-content: flex-start;
 }
 
 a {
     width: 20%;
     text-align: center;
     text-decoration: none;
+}
+
+body {
+    background-color: black;
+}
+
+footer {
+    background-color: white;
+}
+
+.navImage {
+    width: 75px;
+}
+
+.items {
+    opacity: 0;
+}
+
+.items:hover {
+    background-color: white;
+    color: black;
+    transition: opacity 0.3s ease-in-out;
+    opacity: 1;
+}
+
+.mainImage {
+    width: 60%;
+}
+
+h1 {
+    padding: 0px;
+}
+
+#mainH1 {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0px;
+}
+
+#bigSai {
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap; 
+    flex-;
+    background-color: lightblue;
 }
