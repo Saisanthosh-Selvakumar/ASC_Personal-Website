@@ -24,6 +24,17 @@ body {
     background-color: black;
 }
 
+h1 {
+    font-family: 'Helvetica', Courier, monospace;
+    padding: 5px;
+    margin: 0px;
+}
+
+p {
+    padding: 5px;
+    margin: 0px;
+}
+
 footer {
     background-color: white;
 }
@@ -32,11 +43,11 @@ footer {
     width: 75px;
 }
 
-.items {
+.navItems {
     opacity: 0;
 }
 
-.items:hover {
+.navItems:hover {
     background-color: white;
     color: black;
     transition: opacity 0.3s ease-in-out;
@@ -44,22 +55,13 @@ footer {
 }
 
 .mainImage {
-    width: 60%;
+    width: 30%;
+    height: 30%;
 }
 
-h1 {
-    padding: 0px;
-}
-
-#mainH1 {
-    font-family: 'Courier New', Courier, monospace;
-    padding: 0px;
-}
-
-#bigSai {
+#title {
     display: flex;
-    padding: 20px;
-    flex-wrap: wrap; 
-    flex-;
-    background-color: lightblue;
+    padding: 20px 0px 20px 20px;
+    flex-wrap: wrap;
+    background-color: darkblue;
 }
